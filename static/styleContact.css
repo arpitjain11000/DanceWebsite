@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: white;
+    margin: 43px 0px;
+    margin-top: 23px;
+    background-color: rgb(223, 33, 33);
+    height: 43px;
+}
+    
+.myForm{
+    margin-top: -45px;
+    margin-bottom: 0px;
+    background-color: rgb(255 239 239);
+    padding: 1px 0px;
+    height: 600px;
+    /* background-color: beige; */
+    /* max-width: 70%;*/
+    
+}
+input, textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;;
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}

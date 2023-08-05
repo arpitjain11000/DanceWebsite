@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lora&family=Maven+Pro:wght@800&family=Sevillana&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: #000000;
+    font-family: 'Kanit', sans-serif;
+    padding: 15px, 4px;
+    /* width: 100%; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 8px 0px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white; 
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: rgb(234, 160, 160);  
+}
+
+#introSection{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: center/cover no-repeat url("/static/bg_dance.jpg");
+    height: 400px;
+    background-color: red;
+    padding-bottom: 150px;
+}
+
+#introSection div.small{
+    font-size: 20px;
+}
+
+#missionSection{
+    height: 385px; 
+    width: 100%;
+    margin: auto;
+    
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding: 24px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+    background-color: #fff3ec;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(255 239 239);
+    text-align: center;
+    padding-top: 40px;
+}
+#sponsorsSection h2{
+    font-size: 36px;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: 27px auto;
+    
+}
+
+.spImage{
+    height: 80px;
+    margin: 40px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    /* font-weight: bold; */
+}
