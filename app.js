@@ -4,6 +4,12 @@ const path= require("path");
 const app= express();
 const mongoose = require('mongoose');
 const bodyparser= require("body-parser");
+
+//thapa mongodb atlas
+const DB= 'mongodb+srv://arpit:arpitjain@cluster0.4buggu7.mongodb.net/?retryWrites=true&w=majority'
+
+//till tis thapa mongodb atlas
+
 main().catch(err => console.log(err));
 
 async function main() {
