@@ -26,7 +26,7 @@ const contactSchema = new mongoose.Schema({
   desc: String
 });
 const Contact = mongoose.model('Contact', contactSchema);
-const port= process.env.PORT ||5000;
+// const port= process.env.PORT ||5000;
 
 // EXPRESS SPECIFC STUFF
 app.use('/static', express.static('static'))
@@ -59,6 +59,7 @@ app.get('/', (req, res) => {
     // res.status(200).render('contact.pug');
   })  
 
-  app.listen(port, ()=>{
+  const server= app.listen(process.env.PORT || 5000, ()=>{
+    const port= server.address().port;
     console.log(`The application started successfully on port ${port}`);
 })
