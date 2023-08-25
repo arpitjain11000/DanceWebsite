@@ -26,7 +26,7 @@ const contactSchema = new mongoose.Schema({
   desc: String
 });
 const Contact = mongoose.model('Contact', contactSchema);
-const port= 80;
+const port= 5000;
 
 // EXPRESS SPECIFC STUFF
 app.use('/static', express.static('static'))
