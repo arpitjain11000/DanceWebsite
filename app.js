@@ -13,8 +13,11 @@ const DB= 'mongodb+srv://arpit:arpitjain@cluster0.4buggu7.mongodb.net/?retryWrit
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/contactDance');
+ // await mongoose.connect('mongodb://127.0.0.1:27017/contactDance');
+
+ await mongoose.connect(DB);
 }
+
 const contactSchema = new mongoose.Schema({
   name: String,
   phone: String,
