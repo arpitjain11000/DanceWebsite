@@ -59,6 +59,6 @@ app.get('/', (req, res) => {
     // res.status(200).render('contact.pug');
   })  
 
-  app.listen(port, ()=>{
+  app.listen(process.env.PORT || port, ()=>{
     console.log(`The application started successfully on port ${port}`);
 })
