@@ -133,14 +133,14 @@ height: 42px;
 }
 
 .spImage{
-    height: 80px;
+    height: 90px;
     margin: 40px;
 }
 
 #footer{
     background-color: black;
     color: white;
-    height: 50px;
+    height: 40px;
     text-align: center;
     font-family: 'Kanit', sans-serif;
     /* font-weight: bold; */
